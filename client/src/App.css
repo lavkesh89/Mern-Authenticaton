@@ -1,0 +1,352 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body-login{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(110deg, #21D4FD 16%, #B721FF 100%);
+}
+
+
+.wrapper-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size:fill;
+    position: relative;
+    width: 450px;
+    height: 550px;
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255);
+    background-image:url("D:\MERN auth\client\src\images\scene1.avif");
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+ 
+  .wrapper-login .form-box {
+    width: 100%;
+    height: 450px;
+    padding: 40px;
+  }
+  
+  form h2 {
+    font-size: 34px;
+    text-align: center;
+  }
+  
+  form .input-box-login {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+  }
+
+  .input-box-login input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 22px 45px 20px 20px;
+  }
+  
+  .input-box-login input::placeholder {
+    color: #e7e6e6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .input-box-login .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    translate: 0 -50%;
+    font-size: 25px;
+  }
+  .input-box-login .icon{
+    color:rgb(246, 241, 90);
+  }
+  
+  form .remember-forgot-login {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .remember-forgot-login:hover {
+    color: rgb(255, 246, 70);
+  }
+  
+  form .button-login {
+    width: 100%;
+    height: 55px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  form .button-login:hover{
+    color:yellow;
+    background-color: rgba(255, 255, 255, 0.3);  
+    border-color: yellow; 
+  }
+  
+  form .register-link-login {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .register-link-login p{
+    color: #fff;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+  form p{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+  
+.login-t-text-login{
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(240, 41, 41);
+  font-family:'Times New Roman', Times, serif;
+}
+
+.login-t-text-login:hover {
+  text-decoration: none;
+  color:rgb(233, 212, 55);
+}
+
+  /*-------------------------------------- css for register ---------------------------------------*/
+
+.body-register{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(45deg, #81d8a9 0%, #f2ec48 100%);
+
+}
+  .wrapper-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size:fill;
+    position: relative;
+    width: 500px;
+    height: 600px;
+    color: #ffffff;
+    border: 2px solid rgb(185, 179, 179);
+    background-image:url("./images/scene.jpg");
+    background-size: cover;
+    background-size: cover;
+    border-radius: 30px;
+  }
+ 
+  .wrapper-register .form-box {
+    width: 100%;
+    height: 450px;
+    padding: 40px;
+  }
+  
+  form h1 {
+    font-size: 34px;
+    text-align: center;
+  }
+  
+  form .input-box-register {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin: 30px 0;
+  }
+
+  .input-box-register input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 22px 45px 20px 20px;
+  }
+  
+  .input-box-register input::placeholder {
+    color: #f6f6f6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .input-box-register .icon-register {
+    position: absolute;
+    right: 15px;
+    top: 49%;
+    translate: 0 -50%;
+    font-size: 25px;
+  }
+  .input-box-register .icon-register{
+    color:rgb(130, 23, 211);
+  }
+  
+   .form-button-register{
+    width: 100%;
+    height: 55px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .form-button-register:hover{
+    color:rgb(7, 51, 108);
+    background-color: rgba(233, 231, 231, 0.3);   
+    border-color: rgb(7, 51, 108);
+  }
+
+.para{
+ font-size: 18px;
+ padding: 10px;
+}
+
+ .login-t-text-register{
+  padding: 30px;
+  font-size: 22px;
+  text-decoration: none;
+  color: rgb(11, 5, 75);
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 900;
+}
+
+.login-t-text-register:hover{
+ color: #17d8d8;
+}
+
+/* css for forget password ----------------------------------------------------------------------------------------*/
+
+.body-forget{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(35deg, #eb85ff 0%, #f94052 90%);
+
+}
+  .wrapper-forget{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size:fill;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    color: #fff;
+    border: 2px solid rgb(165, 165, 165);
+    background-image:url("./images/scene.jpg");
+    background-size: cover;
+    background-size: cover;
+    border-radius: 30px;
+  }
+ 
+  form h1 {
+    font-size: 34px;
+    text-align: center;
+  }
+  
+  form .input-box-forget {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+  }
+
+  .input-box-forget input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 22px 45px 20px 20px;
+  }
+  
+  .input-box-forget input::placeholder {
+    color: #ebe9e9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .input-box-forget .icon-forget {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    translate: 0 -50%;
+    font-size: 25px;
+  }
+  .input-box-forget .icon-forget{
+    color:rgb(44, 20, 180);
+  }
+  
+  .button-forget{
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .button-forget:hover{
+  color:rgb(34, 198, 239);
+  background-color: rgba(233, 231, 231, 0.2); 
+  border-color: rgb(34, 198, 239);  
+}
