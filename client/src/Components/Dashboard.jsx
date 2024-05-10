@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+// import '../Css/Style.css';
 
 const Dashboard = () => {
     const navigate = useNavigate();
@@ -17,7 +18,9 @@ const Dashboard = () => {
 
     });
   }, []);
-  return <div><h1>DASH-BOARD</h1></div>;
+  return (
+    <div><h1>DASHBOARD-- in GITHUB</h1></div>
+  );
 };
 
 export default Dashboard;

@@ -147,7 +147,7 @@
   color:rgb(233, 212, 55);
 }
 
-  /*-------------------------------------- css for register ---------------------------------------*/
+/*-------------------------------------- css for register ---------------------------------------*/
 
 .body-register{
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -168,7 +168,7 @@
     width: 500px;
     height: 600px;
     color: #ffffff;
-    border: 2px solid rgb(185, 179, 179);
+    border: 2px solid rgb(241, 238, 238);
     background-image:url("./images/scene.jpg");
     background-size: cover;
     background-size: cover;
@@ -349,4 +349,46 @@
   color:rgb(34, 198, 239);
   background-color: rgba(233, 231, 231, 0.2); 
   border-color: rgb(34, 198, 239);  
+}
+
+
+/*  home-------------------------------------------------------------- */
+
+.hm {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.dash{
+ text-decoration: none;
+ font-size: 20px;
+ font-weight: 500;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ color: #fff;
+}
+.dash:hover{
+  background-color: #0d324a;
+  color: #eb85ff;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  background-color: #db7c34;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover {
+  background-color: #0d324a;
+  color: #eb85ff;
 }

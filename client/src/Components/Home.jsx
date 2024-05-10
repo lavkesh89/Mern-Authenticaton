@@ -20,9 +20,9 @@ const Home = () => {
   }
 
   return (
-    <div>Home
-      <button><Link to="/dashboard">Dashboard</Link></button><br/><br/>
-      <button onClick={handleLogout}>LogOut</button>
+    <div className="hm"><h1>Home</h1><br/>
+      <button><Link to="/dashboard" className="dash">DASHBOARD</Link></button><br/><br/>
+      <button onClick={handleLogout}>LOGOUT</button>
     </div>
   )
 }
