@@ -219,7 +219,7 @@
     font-size: 25px;
   }
   .input-box-register .icon-register{
-    color:rgb(130, 23, 211);
+    color:rgb(7, 51, 108);
   }
   
    .form-button-register{
@@ -250,15 +250,15 @@
 
  .login-t-text-register{
   padding: 30px;
-  font-size: 22px;
+  font-size: 24px;
   text-decoration: none;
-  color: rgb(11, 5, 75);
+  color: rgb(116, 236, 120);
   font-family:'Times New Roman', Times, serif;
   font-weight: 900;
 }
 
 .login-t-text-register:hover{
- color: #17d8d8;
+ color: rgb(7, 51, 108);
 }
 
 /* css for forget password ----------------------------------------------------------------------------------------*/
@@ -327,7 +327,7 @@
     font-size: 25px;
   }
   .input-box-forget .icon-forget{
-    color:rgb(44, 20, 180);
+    color:rgb(78, 218, 225);
   }
   
   .button-forget{
@@ -346,9 +346,9 @@
   }
 
   .button-forget:hover{
-  color:rgb(34, 198, 239);
+  color:rgb(78, 218, 225);
   background-color: rgba(233, 231, 231, 0.2); 
-  border-color: rgb(34, 198, 239);  
+  border-color: rgb(78, 218, 225);  
 }
 
 
